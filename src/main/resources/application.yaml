@@ -2,9 +2,9 @@
  
  spring:
    datasource:
-     url: jdbc:postgresql://localhost:5440/springboot-crud?createDatabaseIfNotExist=true&autoReconnect=true&showSSL=false
-     username: synergy_user
-     password: cAnGESON
+     url: jdbc:postgresql://localhost:5330/springboot-crud?createDatabaseIfNotExist=true&autoReconnect=true&showSSL=false
+     username: postgres
+     password: postgres
 
    jpa:
      hibernate:
